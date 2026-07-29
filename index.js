@@ -9,7 +9,6 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://www.kccclasses.in",
   process.env.FRONTEND_URL,
   /^https:\/\/.*\.vercel\.app$/,
 ].filter(Boolean);
